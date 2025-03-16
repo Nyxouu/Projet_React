@@ -1,0 +1,40 @@
+.cardFooter{
+    font-family: "MedievalSharp", cursive;
+    font-weight: normal; 
+    position: relative;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-image:url(../../public/parchemin_footer.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 4% 0 4% 0;
+    filter: drop-shadow(0.3rem 0.3rem 0.5rem rgb(0, 0, 0));
+
+}
+
+.logo-card .logo{
+    width: 50px;
+    height: 50px;
+    margin: 100% 0 20% 0;
+    filter: drop-shadow(0.3rem 0rem 0.5rem rgb(119, 74, 0));
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+    margin: 0 20% 0% 20%;
+}
+
+.card-infos{
+    margin: 0 15% 0% 15%;
+}
+
+.card-description {
+    text-align:center;
+    font-size: 12px;
+}

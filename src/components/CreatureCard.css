@@ -1,0 +1,70 @@
+.cardStyle {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-image:url(../../public/parchemin.jpg);
+    padding: 8px 8px 8px 8px; 
+    box-sizing: border-box; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+  .title-card {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: rgb(240, 248, 255);
+    color: rgb(124, 76, 0, 1);
+    text-shadow: 1px 1px 2px rgb(150, 113, 54);
+    padding : 5px 0px 3px 8px;
+    border-radius: 5px;
+    height: 6%;
+    font-family: "MedievalSharp", cursive;
+    font-weight: bold; 
+  }
+
+  .title-card h2 {
+    font-size: 20px;
+  }
+
+  .element-picture {
+      width: auto;
+      height: 90%;
+  }
+
+  .cardStyle img {
+    max-width: calc(100% - 13px);
+    margin: 0px 8px 0px 5px;
+    border: solid aliceblue;
+    border-radius: 0px 0px 6px 6px;
+    object-fit: cover;
+    height: 101%;
+  }
+  
+  .creature-description {
+    font-family: "MedievalSharp", cursive;
+    font-weight: normal; 
+    position: relative;
+    bottom:33%; 
+    max-width: calc(100% - 12px);
+    margin: 0px 6px 0px 6px;
+    padding :5px;
+    box-sizing: border-box;
+    background: rgba(124, 76, 0, 0.5);
+    text-align: left; 
+    display: block;
+    border: 2px solid aliceblue;
+    border-radius: 6px 6px 6px 6px;
+  }
+  
+  .creature-description-line {
+    color: aliceblue;
+    font-size: 12px;
+    margin: 5px 0;
+  } 

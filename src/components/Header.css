@@ -1,0 +1,18 @@
+.menu{
+    font-family: "MedievalSharp", cursive;
+    font-weight: normal; 
+    color: rgb(212, 147, 89);
+    text-shadow: 1px 1px 2px rgb(126, 91, 36);
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2em;
+    list-style-type: none;
+}
+
