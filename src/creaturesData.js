@@ -108,7 +108,7 @@ export default [
     alignment: "Mauvais",
     lifespan: "Mortel",
     pictureUrl: "./creatures/gobelins.jpg",
-    titledescription: "",
+    titledescription: "Les Gobelins",
     description: "Les gobelins sont de petites créatures sournoises, animées par une cupidité insatiable et un goût prononcé pour la violence. Prêts à tout pour obtenir ce qu’ils désirent – bien souvent de l’or ou des trésors volés – ils ne reculent devant aucun coup bas, aucune trahison, aucun massacre. Contrairement aux nymphes, dont la séduction est instinctive et innocente, les gobelins agissent avec une véritable malveillance, prenant un plaisir sadique à répandre le sang et le chaos. Leur brutalité et leur absence de scrupules leur permettent de prospérer dans les iles hostiles de Garakh, où seul le plus cruel peut espérer survivre."
   },
   {
