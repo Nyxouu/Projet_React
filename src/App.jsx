@@ -5,7 +5,7 @@ import "@fontsource/medievalsharp";
 
 export default function APP() {
   return (
-    <div class="content">
+    <div class="content padding">
       <div id="creature-gallery">
         {creaturesData.map((creature) => (
           <PointCard creature={creature}/>
