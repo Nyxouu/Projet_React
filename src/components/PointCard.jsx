@@ -44,19 +44,21 @@ export default function pointCard({creature}) {
             {isVisible ?
                 <div className="CardVisible">
                   <img className="cross" onClick={toggleVisibility} src="./logos/croix-blanche.png" alt="Icon Croix" />
-                  <CreatureCard
-                    key={creature.id}
-                    breed={creature.breed}
-                    type={creature.type}
-                    size={creature.size}
-                    intelligence={creature.intelligence}
-                    element={creature.element}
-                    habitat={creature.habitat}
-                    alignment={creature.alignment}
-                    lifespan={creature.lifespan}
-                    pictureUrl={creature.pictureUrl}
-                  />
-                </div> : null}
+                  <div className="cardstyle">
+                    <CreatureCard
+                      key={creature.id}
+                      breed={creature.breed}
+                      type={creature.type}
+                      size={creature.size}
+                      intelligence={creature.intelligence}
+                      element={creature.element}
+                      habitat={creature.habitat}
+                      alignment={creature.alignment}
+                      lifespan={creature.lifespan}
+                      pictureUrl={creature.pictureUrl}
+                    />
+                  </div>
+              </div> : null}
         </div>
     );
 }

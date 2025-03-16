@@ -6,3 +6,10 @@
 .CardVisible {
   background-color: rgb(60, 38, 20, 0.5) ;
 }
+
+.cardstyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

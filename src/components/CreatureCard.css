@@ -3,16 +3,12 @@
     height: 400px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 1);
     border-radius: 10px;
     overflow: hidden;
     background-image:url(../../public/parchemin.jpg);
     padding: 8px 8px 8px 8px; 
     box-sizing: border-box; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
   }
 
   .title-card {
