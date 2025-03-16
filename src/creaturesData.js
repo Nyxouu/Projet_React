@@ -11,7 +11,9 @@ export default [
     habitat: "Cité antique",
     alignment: "Neutre",
     lifespan: "Mortel",
-    pictureUrl: "./creatures/humains.png"
+    pictureUrl: "./creatures/humains.png",
+    titledescription: "Les Humains",
+    description: "Les humains sont des créatures insatiables, guidées par une soif de pouvoir et une volonté de domination qui dépassent toutes les autres espèces. Animés par l’ambition, ils cherchent sans cesse à s’élever, à conquérir, à imposer leur loi, que ce soit par la force, la ruse ou l’or. Leur désir de contrôle les pousse à soumettre les plus faibles et à rivaliser entre eux pour asseoir leur suprématie. Pourtant, cette quête effrénée est aussi leur plus grande malédiction, les condamnant à une guerre perpétuelle, non seulement contre les autres races, mais aussi contre eux-mêmes."
   },
   {
     id: 2,
@@ -25,7 +27,9 @@ export default [
     habitat: "Cité antique",
     alignment: "Bon",
     lifespan: "Élevée",
-    pictureUrl: "./creatures/elfes.jpg"
+    pictureUrl: "./creatures/elfes.jpg",
+    titledescription: "Les Elfes",
+    description: "Les elfes sont des êtres d’une sagesse infinie, entièrement dévoués à la quête du savoir et à la compréhension du monde qui les entoure. Leur société, hautement structurée, repose sur un équilibre harmonieux où chacun se voit attribuer une mission précise dès la naissance, en fonction de ses aptitudes naturelles. Archers, guerriers, cuisiniers, herboristes, soigneurs, savants ou inventeurs, chaque individu joue un rôle essentiel au sein de sa communauté. Leur mode de vie discipliné et leur quête incessante de connaissance en font une race aussi érudite que mystérieuse, guidée non par la conquête, mais par la compréhension des secrets de l’univers."
   },
   {
     id: 3,
@@ -39,7 +43,9 @@ export default [
     habitat: "Forêt",
     alignment: "Bon",
     lifespan: "Élevée",
-    pictureUrl: "./creatures/fees.jpg"
+    pictureUrl: "./creatures/fees.jpg",
+    titledescription: "Les Fées",
+    description: "Les fées sont de minuscules créatures, mais d’une robustesse insoupçonnée, entièrement dévouées à la protection de la grande forêt d’Helya. Jamais elles n’en sortent, quelles que soient les circonstances, car leur mission sacrée est de préserver l’équilibre de cet écosystème et de veiller sur chaque être qui y réside. Leur magie, aussi ancienne que la forêt elle-même, possède un pouvoir immense, capable de guérir, de purifier et de repousser toute menace pesant sur leur sanctuaire. Dans leur frêle apparence se cache une énergie phénoménale, un lien indéfectible avec la nature qui fait d’elles les gardiennes ultimes de ces terres mystiques."
   },
   {
     id: 4,
@@ -53,7 +59,9 @@ export default [
     habitat: "Montagne",
     alignment: "Mauvais",
     lifespan: "Mortel",
-    pictureUrl: "./creatures/orcs.jpg"
+    pictureUrl: "./creatures/orcs.jpg",
+    titledescription: "Les Orcs",
+    description: "Autrefois pacifiques et désireux de coexister, les orcs furent rejetés par les autres races en raison de leur apparence jugée repoussante. Chassés et méprisés, ils furent contraints à l’exil sur le lointain continent de Garakh, où ils survécurent dans des terres hostiles, forgés par l’adversité et la souffrance. Après des millénaires, ils revinrent sur le continent d’Altair, espérant retrouver leur place parmi les civilisations. Mais le monde ne leur offrit qu’une seule place : celle d’esclaves. Traités comme des bêtes, asservis, humiliés, les orcs nourrissent désormais une haine profonde envers les autres races, et plus particulièrement envers les humains, leurs oppresseurs. Ils ne rêvent plus de coexistence, mais de vengeance, et chaque battement de leur cœur est un rappel du sang et des chaînes qu’ils ont endurés."
   },
   {
     id: 5,
@@ -67,7 +75,9 @@ export default [
     habitat: "Foret",
     alignment: "Neutre",
     lifespan: "Élevée",
-    pictureUrl: "./creatures/nymphes.png"
+    pictureUrl: "./creatures/nymphes.png",
+    titledescription: "Les Nymphes",
+    description: "Les nymphes sont des créatures divines, nées de la volonté des dieux, incarnant la séduction et le mystère. Prêtes à tout pour l'or et les richesses, elles charment sans distinction de sexe ou de race, non par cruauté, mais parce que le jeu de la tentation est inscrit dans leur essence. Inconscientes de l’impact de leurs actes, elles ne nourrissent aucune mauvaise intention, vivant simplement selon leur nature envoûtante. Leur beauté envoûte, leur présence trouble, et leur sourire cache toujours une invitation au plaisir… ou au danger."
   },
   {
     id: 6,
@@ -81,7 +91,9 @@ export default [
     habitat: "Montagne",
     alignment: "Bon",
     lifespan: "Immortel",
-    pictureUrl: "./creatures/dragons.jpg"
+    pictureUrl: "./creatures/dragons.jpg",
+    titledescription: "Les Dragons",
+    description: "Les dragons sont d'immenses créatures divines, empreintes d’une sagesse infinie. Leur existence même est un mystère, car les voir est un privilège accordé uniquement par leur propre volonté. Pacifistes par nature, ils ne s’impliquent ni dans les guerres ni dans les querelles des mortels, observant le monde avec un regard détaché et intemporel. On raconte qu’ils vivent sur des terres lointaines, bien au-delà des frontières connues du continent d’Altair. Nombreux furent les marins qui, au fil des âges, partirent à la recherche de ces royaumes lointain… mais aucun ne revint jamais, laissant planer le doute entre légende et réalité."
   },
   {
     id: 7,
@@ -95,7 +107,9 @@ export default [
     habitat: "Souterrain",
     alignment: "Mauvais",
     lifespan: "Mortel",
-    pictureUrl: "./creatures/gobelins.jpg"
+    pictureUrl: "./creatures/gobelins.jpg",
+    titledescription: "",
+    description: "Les gobelins sont de petites créatures sournoises, animées par une cupidité insatiable et un goût prononcé pour la violence. Prêts à tout pour obtenir ce qu’ils désirent – bien souvent de l’or ou des trésors volés – ils ne reculent devant aucun coup bas, aucune trahison, aucun massacre. Contrairement aux nymphes, dont la séduction est instinctive et innocente, les gobelins agissent avec une véritable malveillance, prenant un plaisir sadique à répandre le sang et le chaos. Leur brutalité et leur absence de scrupules leur permettent de prospérer dans les iles hostiles de Garakh, où seul le plus cruel peut espérer survivre."
   },
   {
     id: 8,
@@ -109,21 +123,25 @@ export default [
     habitat: "Montagne",
     alignment: "Neutre",
     lifespan: "Élevée",
-    pictureUrl: "./creatures/nains.jpg"
+    pictureUrl: "./creatures/nains.jpg",
+    titledescription: "Les Nains",
+    description: "Les nains sont d’exceptionnels forgerons et redoutables guerriers, maîtres incontestés de l’acier et de la pierre. Peuple fier et secret, ils vivent reclus dans leurs citadelles montagneuses, loin des affaires des autres races. Profondément sectaires, ils n’accordent leur confiance qu’avec une extrême rareté, mais celui qui la gagne obtient une loyauté indéfectible. Les Nains de Formen, dans le Nord, sont les gardiens des traditions et de leur magie leur permet d’insuffler savoir et souvenirs dans la roche. Leurs armes transmettent l’expérience des anciens, leurs forteresses renferment les secrets du passé, et leurs pierres murmurent aux générations futures. À l’inverse, les nains d’Hyarna, au Sud, sont des artisans pragmatiques et ambitieux, maîtres dans l’art de façonner des armures d’une robustesse inégalée. Leur magie fusionne roche et métal pour créer des équipements quasi indestructibles, faisant d’eux des forgerons et guerriers redoutés."
   },
   {
     id: 9,
     x: 10,
     y: 90,
     breed: "CHLOROPHILIEN",
-    type: "Magique",
+    type: "Gardien",
     size: "Grand",
     intelligence: "Basique",
     element: "./logos/feuille.png",
     habitat: "Forêt",
     alignment: "Neutre",
     lifespan: "Élevée",
-    pictureUrl: "./creatures/chlorophiliens.jpg"
+    pictureUrl: "./creatures/chlorophiliens.jpg",
+    titledescription: "Les Chlorophiliens",
+    description: "Les Chlorophiliens sont des êtres magiques à l’apparence d’arbres, intimement liés à la forêt d’Helya, qu’ils ne quittent jamais. Immenses et majestueux, leur écorce forme une peau robuste, et leur feuillage semble vibrer au rythme du vent et de la magie de la nature. Gardiens silencieux et sages, ils veillent sur l’équilibre de la forêt aux côtés des fées, leur magie nourrissant les arbres, purifiant les rivières et protégeant les terres du mal. Discrets et pacifiques, ils n’interviennent que lorsque l’harmonie de leur sanctuaire est menacée, déchaînant alors la puissance millénaire de la forêt contre quiconque oserait la souiller."
   },
   {
     id: 10,
@@ -137,7 +155,9 @@ export default [
     habitat: "Cité antique",
     alignment: "Neutre",
     lifespan: "Immortel",
-    pictureUrl: "./creatures/golems.jpg"
+    pictureUrl: "./creatures/golems.jpg",
+    titledescription: "Les Golems",
+    description: "Les Golems sont d’immenses géants de pierre, veillant inlassablement sur les sanctuaires oubliés des montagnes de Formen. Dépourvus de réelle pensée, ils n’agissent que selon leur mission ancestrale : protéger ces lieux interdits à tout intrus. Selon la légende, nul n’a jamais pu franchir leur garde, hormis un mystérieux mage dont les écrits ne révèlent pas le secret. Ceux qui ont tenté d’explorer ces sanctuaires sont soit revenus grièvement blessés, soit n’ont jamais reparu, laissant planer un voile de mystère sur ce que renferment réellement ces ruines interdites."
   },
   {
     id: 10,
@@ -151,6 +171,8 @@ export default [
     habitat: "Océan",
     alignment: "Mauvais",
     lifespan: "Mortel",
-    pictureUrl: "./creatures/sirenes.jpg"
+    pictureUrl: "./creatures/sirenes.jpg",
+    titledescription: "Les Sirènes",
+    description: "Les Sirènes sont des créatures marines redoutables, prédatrices insatiables qui ne se nourrissent que d’autres êtres vivants, avec une préférence marquée pour les créatures magiques, dont elles absorbent les pouvoirs lors de la digestion. Rusées et manipulatrices, elles usent de leur capacité à altérer leur apparence pour attirer et tromper les marins s’aventurant dans l’Archipel d’Aquine. Nombreux sont ceux qui, séduits par une beauté illusoire, ont disparu sans laisser de trace, victimes de ces chasseuses des profondeurs dont la seule loi est celle du plus fort."
   }
 ]

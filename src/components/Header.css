@@ -1,4 +1,4 @@
-.menu{
+.header, .menu{
     font-family: "MedievalSharp", cursive;
     font-weight: normal; 
     color: rgb(212, 147, 89);
@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 
 .filters{
     display: flex;
