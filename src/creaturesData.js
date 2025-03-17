@@ -100,7 +100,7 @@ export default [
     x: 30,
     y: 75,
     breed: "GOBELIN",
-    type: "Malicieux",
+    type: "Neutre",
     size: "Petit",
     intelligence: "Basique",
     element: "./logos/terre.png",
@@ -148,7 +148,7 @@ export default [
     x: 75,
     y: 95,
     breed: "GOLEM",
-    type: "G-ardien",
+    type: "Gardien",
     size: "Géant",
     intelligence: "Basique",
     element: "./logos/terre.png",
@@ -174,5 +174,89 @@ export default [
     pictureUrl: "./creatures/sirenes.jpg",
     titledescription: "Les Sirènes",
     description: "Les Sirènes sont des créatures marines redoutables, prédatrices insatiables qui ne se nourrissent que d’autres êtres vivants, avec une préférence marquée pour les créatures magiques, dont elles absorbent les pouvoirs lors de la digestion. Rusées et manipulatrices, elles usent de leur capacité à altérer leur apparence pour attirer et tromper les marins s’aventurant dans l’Archipel d’Aquine. Nombreux sont ceux qui, séduits par une beauté illusoire, ont disparu sans laisser de trace, victimes de ces chasseuses des profondeurs dont la seule loi est celle du plus fort."
-  }
+  },
+  {
+    id: 11,
+    x: 60,
+    y: 40,
+    breed: "CENTAURE",
+    type: "Neutre",
+    size: "Grand",
+    intelligence: "Élevée",
+    element: "./logos/terre.png",
+    habitat: "Forêt",
+    alignment: "Neutre",
+    lifespan: "Longue",
+    pictureUrl: "./creatures/centaures.jpg",
+    titledescription: "Les Centaures",
+    description: "Les centaures sont des créatures fières, à la fois hommes et chevaux, incarnant la force et la sagesse. Ils vivent en clans au cœur des grandes forêts et prairies. Doués en archerie et en divination, ils possèdent une connaissance approfondie des étoiles et des cycles naturels. Leurs chamans sont des guides spirituels, interprétant les présages célestes pour orienter leur peuple. Bien que souvent distants envers les autres races, ils n’hésitent pas à prendre les armes pour défendre leur territoire contre les intrus et les forces du chaos."
+},
+{
+    id: 12,
+    x: 30,
+    y: 25,
+    breed: "HOBBIT",
+    type: "Neutre",
+    size: "Petit",
+    intelligence: "Moyenne",
+    element: "./logos/terre.png",
+    habitat: "Collines",
+    alignment: "Bon",
+    lifespan: "Mortel",
+    pictureUrl: "./creatures/hobbits.jpg",
+    titledescription: "Les Hobbits",
+    description: "Les hobbits sont un peuple paisible et discret, préférant la simplicité de la vie rurale aux tumultes du monde extérieur. Ce sont des créatures au grand coeur et qui ont toujours le sourire aux lèvres. Installés dans leurs confortables terriers nichés au creux des collines verdoyantes de Mederia, ils cultivent un profond amour pour la bonne chère et les récits autour du feu. Malgré leur petite taille, ils sont dotés d’un grand courage lorsqu’il s’agit de protéger leur foyer et leurs proches. Leurs pieds nus et agiles leur permettent de se déplacer silencieusement, faisant d’eux d’excellents éclaireurs et voleurs lorsqu’ils s’aventurent au-delà de leur territoire. Malins, ingénieux et doté d'un grand talent pour le camouflage, ils privilégient toujours la ruse à la force brute pour se sortir des situations délicates."
+},
+{
+  id: 13,
+  x: 40,
+  y: 30,
+  breed: "FAUNE",
+  type: "Neutre",
+  size: "Moyenne",
+  intelligence: "Élevée",
+  element: "./logos/feuille.png",
+  habitat: "Forêt",
+  alignment: "Bon",
+  lifespan: "Longue",
+  pictureUrl: "./creatures/faunes.jpg",
+  titledescription: "Les Faunes",
+  description: "Les faunes sont des êtres mi-humains, mi-boucs, étroitement liés aux forces de la nature et aux esprits des bois. Connus pour leur caractère espiègle et leur amour de la fête, ils passent leurs journées à danser, jouer de la musique et célébrer la beauté du monde sauvage. Malgré leur apparence joviale, ce sont des créature très peureuses et il est donc assez rare d'en croiser. Dotés d’un grand talent pour le camouflage, ils peuvent disparaître entre les arbres et se fondre dans le feuillage en un clin d’œil. Leur connexion aux forces naturelles leur confère une intuition presque magique, leur permettant de sentir le danger bien avant qu’il ne se manifeste. Certains faunes maîtrisent l’art de l’illusion, troublant la perception de ceux qui s’aventurent trop loin dans leurs bois sacrés."
+},
+{
+  "id": 14,
+  "x": 60,
+  "y": 40,
+  "breed": "TIEFLING",
+  "type": "Démon",
+  "size": "Moyenne",
+  "intelligence": "Élevée",
+  "element": "./logos/feu.png",
+  "habitat": "Terres du Morn",
+  "alignment": "Mauvais",
+  "lifespan": "Immortel",
+  "pictureUrl": "./creatures/tieflings.jpg",
+  "titledescription": "Les Tieflings",
+  "description": "Les Tieflings sont des démons redoutables, porteurs du sang des Enfers et nés du chaos et de la corruption. Leur peau écarlate, leurs cornes menaçantes et leur queue reptilienne ne sont que le reflet de leur nature impitoyable. Manipulateurs et rusés, ils séduisent leurs proies avant de les anéantir sans remords. Leur magie infernale leur permet d'invoquer les flammes dévorantes de l'enfer et d'envelopper leur corps d'une aura de terreur. Il est dit que leur regard seul peut glacer le sang d'un guerrier, et qu'aucune âme qui croise leur chemin ne revient indemne. Les Tieflings règnent sur les terres maudites du Morn, où seuls les fous osent s'aventurer. Quiconque croise leur route ne peut espérer qu’une fin funeste."
+},
+{
+  "id": 15,
+  "x": 60,
+  "y": 40,
+  "breed": "Nemorath",
+  "type": "Démon",
+  "size": "Grand",
+  "intelligence": "Élevée",
+  "element": "./logos/ombre.png",
+  "habitat": "Forêts Maudites",
+  "alignment": "Mauvais",
+  "lifespan": "Immortel",
+  "pictureUrl": "./creatures/nemoraths.jpg",
+  "titledescription": "Le Nemorath",
+  "description": "Créature démoniaque à l’apparence trompeuse, le Nemorath possède un corps d’écorce tordue, des ailes de papillon aux reflets sinistres et une aura de malveillance absolue. Jadis esprit protecteur des bois, il fut corrompu par une force obscure et devint un prédateur implacable. Il se nourrit des âmes perdues et plonge ses victimes dans des cauchemars hallucinatoires avant de les consumer. Son regard perçant transperce l’âme des imprudents, et son ombre dessèche la terre sur son passage. Lorsque le vent se tait et que la brume s’épaissit, c'est trop tard, il est déjà là."
+}
+
+
+
+
 ]

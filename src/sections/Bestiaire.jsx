@@ -1,7 +1,7 @@
 import "./Bestiaire.css";
 import { useState } from "react"
 import creaturesData from "../creaturesData.js";
-import CreatureCard from './CreatureCard.jsx';
+import CreatureCard from '../components/CreatureCard.jsx';
 import "@fontsource/medievalsharp";
 
 export default function Bestiaire() {

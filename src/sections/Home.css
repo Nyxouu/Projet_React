@@ -1,7 +1,6 @@
   #creature-gallery {
     display: block;
+    height: 700px;
   }
 
-  .content {
-    min-height: 100%;
-  }
+  

@@ -1,9 +1,10 @@
 import "./Header.css";
+import { Link } from 'react-router-dom'
 
 export default function Header(){
     return (
         <div class="header padding">
-            <h1>Le Monde d'Orion</h1>
+            <h1><Link to="/">Le Monde de l'Orion</Link></h1>
             <div className="menu">
                  <ul  class="filters">
                     <li>Alignement</li>
@@ -14,8 +15,8 @@ export default function Header(){
                 </ul>
                 <ul  class="filters">
                     <li style={{fontSize: "25px"}}>|</li>
-                    <li>Légendes&Histoires</li>
-                    <li>Bestiaire</li>
+                    <li><Link to="/histoire-et-legendes">Histoires&Légendes</Link></li>
+                    <li><Link to="/bestiaire">Bestiaire</Link></li>
                 </ul>
             </div>
            

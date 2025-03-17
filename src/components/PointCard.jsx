@@ -37,14 +37,14 @@ export default function pointCard({creature}) {
     };
 
     return (
-        <div>
+        <div className="content-home">
             <div onClick={toggleVisibility} style={pointStyle}>
                 <img src="./logos/icon-fenix.png" alt="Icon Fenix" />
             </div>
             {isVisible ?
-                <div className="CardVisible">
+                <div className="card-visible">
                   <img className="cross" onClick={toggleVisibility} src="./logos/croix-blanche.png" alt="Icon Croix" />
-                  <div className="cardstyle">
+                  <div className="card-style">
                     <CreatureCard
                       key={creature.id}
                       breed={creature.breed}

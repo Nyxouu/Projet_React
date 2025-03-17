@@ -1,4 +1,4 @@
-import FooterCard from "./FooterCard.jsx";
+import FooterCard from "../components/FooterCard.jsx";
 import footerCardData from "../footerCardData.js";
 import "./Footer.css";
 
