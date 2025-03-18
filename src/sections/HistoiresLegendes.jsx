@@ -3,7 +3,7 @@
 export default function HistoiresLegendes() {
   return (
     <div class="content padding">
-        <p>blabla</p>
+        <p>HISTOIRE & LEGENDES</p>
     </div>
   )
 
