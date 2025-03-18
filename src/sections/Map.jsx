@@ -1,11 +1,13 @@
 import "./Map.css";
 import creaturesData from "../creaturesData.js";
 import PointCard from "../components/PointCard.jsx";
+import Filters from "../filters/Filters.jsx";
 import "@fontsource/medievalsharp";
 
 export default function Map() {
   return (
     <div class="content padding">
+      <Filters/>
       <div id="creature-gallery">
         {creaturesData.map((creature) => (
           <PointCard creature={creature}/>

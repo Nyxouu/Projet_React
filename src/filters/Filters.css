@@ -1,0 +1,27 @@
+#filters-banner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+
+ 
+select {
+    -webkit-appearance: none; /* Supprime le style par défaut sur Webkit (Chrome, Safari) */
+    -moz-appearance: none; /* Supprime le style par défaut sur Firefox */
+    appearance: none; /* Supprime le style par défaut sur les autres navigateurs */
+    background-color: rgb(60, 38, 20, 0.5);
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    padding: 8px;
+    width: 130px;
+    cursor: pointer;
+    font-family: "MedievalSharp", cursive;
+    color: rgb(212, 147, 89);
+    box-shadow: 0 10px 80px rgba(0, 0, 0, 1);
+}
+
+option {
+    font-family: "MedievalSharp", cursive;
+    color: aliceblue;
+}

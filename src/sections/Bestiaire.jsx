@@ -2,6 +2,7 @@ import "./Bestiaire.css";
 import { useState } from "react"
 import creaturesData from "../creaturesData.js";
 import CreatureCard from '../components/CreatureCard.jsx';
+import Filters from "../filters/Filters.jsx";
 import "@fontsource/medievalsharp";
 
 export default function Bestiaire() {
@@ -17,6 +18,7 @@ export default function Bestiaire() {
 
   return (
     <div className="bestiaire-content padding">
+      <Filters/>
             {selectedCardCreature ?
                 <div className="CardDescriptionVisible">
                     <div className="descriptionstyle">

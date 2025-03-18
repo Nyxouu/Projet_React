@@ -8,7 +8,7 @@ export default function Header(){
             <div className="menu">
                 <ul  class="filters">
                     <li><Link to="/histoire-et-legendes">Histoires&Légendes</Link></li>
-                    <li><Link to="/map">Map</Link></li>
+                    <li><Link to="/map">Carte</Link></li>
                     <li><Link to="/bestiaire">Bestiaire</Link></li>
                 </ul>
             </div>

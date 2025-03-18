@@ -186,7 +186,7 @@ export default [
     element: "./logos/terre.png",
     habitat: "Forêt",
     alignment: "Neutre",
-    lifespan: "Longue",
+    lifespan: "Elevée",
     pictureUrl: "./creatures/centaures.jpg",
     titledescription: "Les Centaures",
     description: "Les centaures sont des créatures fières, à la fois hommes et chevaux, incarnant la force et la sagesse. Ils vivent en clans au cœur des grandes forêts et prairies. Doués en archerie et en divination, ils possèdent une connaissance approfondie des étoiles et des cycles naturels. Leurs chamans sont des guides spirituels, interprétant les présages célestes pour orienter leur peuple. Bien que souvent distants envers les autres races, ils n’hésitent pas à prendre les armes pour défendre leur territoire contre les intrus et les forces du chaos."
@@ -218,7 +218,7 @@ export default [
   element: "./logos/feuille.png",
   habitat: "Forêt",
   alignment: "Bon",
-  lifespan: "Longue",
+  lifespan: "Elevée",
   pictureUrl: "./creatures/faunes.jpg",
   titledescription: "Les Faunes",
   description: "Les faunes sont des êtres mi-humains, mi-boucs, étroitement liés aux forces de la nature et aux esprits des bois. Connus pour leur caractère espiègle et leur amour de la fête, ils passent leurs journées à danser, jouer de la musique et célébrer la beauté du monde sauvage. Malgré leur apparence joviale, ce sont des créature très peureuses et il est donc assez rare d'en croiser. Dotés d’un grand talent pour le camouflage, ils peuvent disparaître entre les arbres et se fondre dans le feuillage en un clin d’œil. Leur connexion aux forces naturelles leur confère une intuition presque magique, leur permettant de sentir le danger bien avant qu’il ne se manifeste. Certains faunes maîtrisent l’art de l’illusion, troublant la perception de ceux qui s’aventurent trop loin dans leurs bois sacrés."
@@ -232,7 +232,7 @@ export default [
   "size": "Moyenne",
   "intelligence": "Élevée",
   "element": "./logos/feu.png",
-  "habitat": "Terres du Morn",
+  "habitat": "Terres Maudites",
   "alignment": "Mauvais",
   "lifespan": "Immortel",
   "pictureUrl": "./creatures/tieflings.jpg",
