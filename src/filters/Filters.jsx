@@ -17,7 +17,7 @@ export default function FilterBanner({setAlignment, setElement, setType}) {
 
       <div id="element-filter">
         <select onChange={(e) => setElement(e.target.value)}>
-          <option value="all-elements">Elements</option>
+          <option value="all-element">Elements</option>
           <option value="eau">Eau</option>
           <option value="feu">Feu</option>
           <option value="terre">Terre</option>
@@ -30,13 +30,13 @@ export default function FilterBanner({setAlignment, setElement, setType}) {
 
       <div id="type-filter">
         <select onChange={(e) => setType(e.target.value)}>
-          <option value="all-types">Types</option>
+          <option value="all-type">Types</option>
           <option value="Neutre">Neutre</option>
           <option value="Guerrier">Guerrier</option>
           <option value="Magique">Magique</option>
           <option value="Gardien">Gardien</option>
           <option value="Divin">Divin</option>
-          <option value="Demon">Demon</option>
+          <option value="Démon">Demon</option>
         </select>
       </div>
 

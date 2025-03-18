@@ -11,7 +11,6 @@ export default function Bestiaire() {
     const [alignment, setAlignment] = useState('all-alignment');
     const [element, setElement] = useState('all-element');
     const [type, setType] = useState('all-type');
-    const [appliedFiltersOrder, setAppliedFiltersOrder] = useState([]);
 
     // Fonction pour afficher une créature sélectionnée
     const toggleVisibility = (creature) => {
@@ -19,36 +18,14 @@ export default function Bestiaire() {
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
-    // Fonction pour mettre à jour les filtres et leur ordre d'application
-    const updateFilter = (filterName, value) => {
-      // Met à jour la valeur du filtre
-      if (filterName === "alignment") setAlignment(value);
-      if (filterName === "element") setElement(value);
-      if (filterName === "type") setType(value);
-
-      // Ajoute le filtre dans l'ordre s'il n'y est pas encore
-      setAppliedFiltersOrder(prevOrder => {
-          if (!prevOrder.includes(filterName)) {
-              return [...prevOrder, filterName]; // On l'ajoute à la fin
-          }
-          return prevOrder; // Sinon, on ne change rien
-      });
-  };
-
     // Tableau avec les créatures filtrées
     const filteredCreatures = useMemo(() => {
-      return creaturesData
-        .map(creature => {
-            // Calcul du score en fonction du nombre de filtres correspondants
-            let score = 0;
-            if (alignment === 'all-alignment' || creature.alignment.includes(alignment)) score++;
-            if (element === 'all-element'|| creature.element.includes(element)) score++;
-            if (type === 'all-type'|| creature.type.includes(type)) score++;
-
-            return { ...creature, score }; // Ajoute le score à chaque créature
-        })
-        .filter(creature => creature.score > 0)
-        .sort((a, b) => b.score - a.score); // Tri par pertinence (score élevé en premier)
+        return creaturesData.filter(creature => {
+          const matchesAlignment = alignment === 'all-alignment' || creature.alignment.includes(alignment);
+          const matchesElement = element === 'all-element' || creature.element.includes(element);
+          const matchesType = type === 'all-type' || creature.type.includes(type);
+          return matchesAlignment && matchesElement && matchesType;
+        });
       }, [alignment, element, type]);
   
 
