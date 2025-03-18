@@ -1,14 +1,16 @@
-.header, .menu{
+.header, .content-menu{
     font-family: "MedievalSharp", cursive;
     font-weight: normal; 
     color: rgb(212, 147, 89);
     text-shadow: 1px 1px 2px rgb(126, 91, 36);
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3%;
+    margin-top: 1%;
 }
 
 
-.filters{
+.menu{
     display: flex;
     align-items: center;
     justify-content: space-between;

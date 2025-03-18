@@ -3,7 +3,6 @@ import { useState, useMemo } from "react"
 import creaturesData from "../creaturesData.js";
 import CreatureCard from '../components/CreatureCard.jsx';
 import Filters from "../filters/Filters.jsx";
-import "@fontsource/medievalsharp";
 
 export default function Bestiaire() {
 
