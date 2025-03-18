@@ -71,7 +71,7 @@ export default [
     type: "Divin",
     size: "Moyen",
     intelligence: "Élevée",
-    element: "./logos/feuille.png",
+    element: "./logos/nature.png",
     habitat: "Foret",
     alignment: "Neutre",
     lifespan: "Élevée",
@@ -135,7 +135,7 @@ export default [
     type: "Gardien",
     size: "Grand",
     intelligence: "Basique",
-    element: "./logos/feuille.png",
+    element: "./logos/nature.png",
     habitat: "Forêt",
     alignment: "Neutre",
     lifespan: "Élevée",
@@ -160,7 +160,7 @@ export default [
     description: "Les Golems sont d’immenses géants de pierre, veillant inlassablement sur les sanctuaires oubliés des montagnes de Formen. Dépourvus de réelle pensée, ils n’agissent que selon leur mission ancestrale : protéger ces lieux interdits à tout intrus. Selon la légende, nul n’a jamais pu franchir leur garde, hormis un mystérieux mage dont les écrits ne révèlent pas le secret. Ceux qui ont tenté d’explorer ces sanctuaires sont soit revenus grièvement blessés, soit n’ont jamais reparu, laissant planer un voile de mystère sur ce que renferment réellement ces ruines interdites."
   },
   {
-    id: 10,
+    id: 11,
     x: 75,
     y: 55,
     breed: "SIRENE",
@@ -176,7 +176,7 @@ export default [
     description: "Les Sirènes sont des créatures marines redoutables, prédatrices insatiables qui ne se nourrissent que d’autres êtres vivants, avec une préférence marquée pour les créatures magiques, dont elles absorbent les pouvoirs lors de la digestion. Rusées et manipulatrices, elles usent de leur capacité à altérer leur apparence pour attirer et tromper les marins s’aventurant dans l’Archipel d’Aquine. Nombreux sont ceux qui, séduits par une beauté illusoire, ont disparu sans laisser de trace, victimes de ces chasseuses des profondeurs dont la seule loi est celle du plus fort."
   },
   {
-    id: 11,
+    id: 12,
     x: 60,
     y: 40,
     breed: "CENTAURE",
@@ -192,7 +192,7 @@ export default [
     description: "Les centaures sont des créatures fières, à la fois hommes et chevaux, incarnant la force et la sagesse. Ils vivent en clans au cœur des grandes forêts et prairies. Doués en archerie et en divination, ils possèdent une connaissance approfondie des étoiles et des cycles naturels. Leurs chamans sont des guides spirituels, interprétant les présages célestes pour orienter leur peuple. Bien que souvent distants envers les autres races, ils n’hésitent pas à prendre les armes pour défendre leur territoire contre les intrus et les forces du chaos."
 },
 {
-    id: 12,
+    id: 13,
     x: 30,
     y: 25,
     breed: "HOBBIT",
@@ -208,14 +208,14 @@ export default [
     description: "Les hobbits sont un peuple paisible et discret, préférant la simplicité de la vie rurale aux tumultes du monde extérieur. Ce sont des créatures au grand coeur et qui ont toujours le sourire aux lèvres. Installés dans leurs confortables terriers nichés au creux des collines verdoyantes de Mederia, ils cultivent un profond amour pour la bonne chère et les récits autour du feu. Malgré leur petite taille, ils sont dotés d’un grand courage lorsqu’il s’agit de protéger leur foyer et leurs proches. Leurs pieds nus et agiles leur permettent de se déplacer silencieusement, faisant d’eux d’excellents éclaireurs et voleurs lorsqu’ils s’aventurent au-delà de leur territoire. Malins, ingénieux et doté d'un grand talent pour le camouflage, ils privilégient toujours la ruse à la force brute pour se sortir des situations délicates."
 },
 {
-  id: 13,
+  id: 14,
   x: 40,
   y: 30,
   breed: "FAUNE",
   type: "Neutre",
   size: "Moyenne",
   intelligence: "Élevée",
-  element: "./logos/feuille.png",
+  element: "./logos/nature.png",
   habitat: "Forêt",
   alignment: "Bon",
   lifespan: "Elevée",
@@ -224,7 +224,7 @@ export default [
   description: "Les faunes sont des êtres mi-humains, mi-boucs, étroitement liés aux forces de la nature et aux esprits des bois. Connus pour leur caractère espiègle et leur amour de la fête, ils passent leurs journées à danser, jouer de la musique et célébrer la beauté du monde sauvage. Malgré leur apparence joviale, ce sont des créature très peureuses et il est donc assez rare d'en croiser. Dotés d’un grand talent pour le camouflage, ils peuvent disparaître entre les arbres et se fondre dans le feuillage en un clin d’œil. Leur connexion aux forces naturelles leur confère une intuition presque magique, leur permettant de sentir le danger bien avant qu’il ne se manifeste. Certains faunes maîtrisent l’art de l’illusion, troublant la perception de ceux qui s’aventurent trop loin dans leurs bois sacrés."
 },
 {
-  "id": 14,
+  "id": 15,
   "x": 60,
   "y": 40,
   "breed": "TIEFLING",
@@ -240,14 +240,14 @@ export default [
   "description": "Les Tieflings sont des démons redoutables, porteurs du sang des Enfers et nés du chaos et de la corruption. Leur peau écarlate, leurs cornes menaçantes et leur queue reptilienne ne sont que le reflet de leur nature impitoyable. Manipulateurs et rusés, ils séduisent leurs proies avant de les anéantir sans remords. Leur magie infernale leur permet d'invoquer les flammes dévorantes de l'enfer et d'envelopper leur corps d'une aura de terreur. Il est dit que leur regard seul peut glacer le sang d'un guerrier, et qu'aucune âme qui croise leur chemin ne revient indemne. Les Tieflings règnent sur les terres maudites du Morn, où seuls les fous osent s'aventurer. Quiconque croise leur route ne peut espérer qu’une fin funeste."
 },
 {
-  "id": 15,
+  "id": 16,
   "x": 60,
   "y": 40,
   "breed": "Nemorath",
   "type": "Démon",
   "size": "Grand",
   "intelligence": "Élevée",
-  "element": "./logos/ombre.png",
+  "element": "./logos/tenebre.png",
   "habitat": "Forêts Maudites",
   "alignment": "Mauvais",
   "lifespan": "Immortel",

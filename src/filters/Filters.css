@@ -1,6 +1,6 @@
 #filters-banner {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     margin-bottom: 10%;
 }
 
@@ -14,7 +14,7 @@ select {
     border: 1px solid aliceblue;
     border-radius: 10px;
     padding: 8px;
-    width: 130px;
+    width: 150px;
     cursor: pointer;
     font-family: "MedievalSharp", cursive;
     color: rgb(212, 147, 89);

@@ -1,26 +1,27 @@
 import { useState } from "react";
 import "./Filters.css";
 
-export default function FilterBanner({setGenre}) {
+export default function FilterBanner({setAlignment, setElement, setType}) {
 
   return (
     <div id="filters-banner">
 
       <div id="alignment-filter">
-        <select onChange={(e) => setGenre(e.target.value)}>
+        <select onChange={(e) => setAlignment(e.target.value)}>
           <option value="all-alignment">Alignements</option>
-          <option value="bon">Bon</option>
-          <option value="neutre">Neutre</option>
-          <option value="mauvais">Mauvais</option>
+          <option value="Bon">Bon</option>
+          <option value="Neutre">Neutre</option>
+          <option value="Mauvais">Mauvais</option>
         </select>
       </div>
 
       <div id="element-filter">
-        <select onChange={(e) => setGenre(e.target.value)}>
+        <select onChange={(e) => setElement(e.target.value)}>
           <option value="all-elements">Elements</option>
           <option value="eau">Eau</option>
           <option value="feu">Feu</option>
-          <option value="vent">Vent</option>
+          <option value="terre">Terre</option>
+          <option value="air">Air</option>
           <option value="nature">Nature</option>
           <option value="lumiere">Lumière</option>
           <option value="tenebre">Ténèbre</option>
@@ -28,18 +29,18 @@ export default function FilterBanner({setGenre}) {
       </div>
 
       <div id="type-filter">
-        <select onChange={(e) => setGenre(e.target.value)}>
+        <select onChange={(e) => setType(e.target.value)}>
           <option value="all-types">Types</option>
-          <option value="neutre">Neutre</option>
-          <option value="magique">Magique</option>
-          <option value="guerrier">Guerrier</option>
-          <option value="gardien">Gardien</option>
-          <option value="divin">Divin</option>
-          <option value="demon">Demon</option>
+          <option value="Neutre">Neutre</option>
+          <option value="Guerrier">Guerrier</option>
+          <option value="Magique">Magique</option>
+          <option value="Gardien">Gardien</option>
+          <option value="Divin">Divin</option>
+          <option value="Demon">Demon</option>
         </select>
       </div>
 
-      <div id="habitat-filter">
+      {/* <div id="habitat-filter">
         <select onChange={(e) => setGenre(e.target.value)}>
           <option value="all-habitats">Habitats</option>
           <option value="pop">Forets</option>
@@ -51,9 +52,9 @@ export default function FilterBanner({setGenre}) {
           <option value="k-pop">Forets Maudites</option>
           <option value="k-pop">Terres Maudites</option>
         </select>
-      </div>
+      </div> */}
 
-      <div id="size-filter">
+      {/* <div id="size-filter">
         <select onChange={(e) => setGenre(e.target.value)}>
           <option value="all-size">Tailles</option>
           <option value="minuscule">Minuscule</option>
@@ -62,16 +63,16 @@ export default function FilterBanner({setGenre}) {
           <option value="grand">Grand</option>
           <option value="colossal">Colossal</option>
         </select>
-      </div>
+      </div> */}
 
-      <div id="lifespan-filter">
+      {/* <div id="lifespan-filter">
         <select onChange={(e) => setGenre(e.target.value)}>
           <option value="all-lifespan">Espérance de vie</option>
           <option value="petit">Mortel</option>
           <option value="moyen">Elevée</option>
           <option value="grand">Immortel</option>
         </select>
-      </div>
+      </div> */}
     </div>
   )
 }

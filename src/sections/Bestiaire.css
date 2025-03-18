@@ -9,7 +9,7 @@
     place-items: center;
 }
 
-.CardDescriptionVisible {
+.card-description-visible {
     display: flex;
     align-items:center; 
     justify-content: space-between; 
@@ -19,7 +19,7 @@
     margin-bottom: 10%;
 }
 
-.descriptionstyle {
+.description-style {
     max-width: 300px; 
 }
 .description {
@@ -34,15 +34,15 @@
     box-shadow: 0 30px 80px rgba(0, 0, 0, 1);
 }
 
-.titledescription, .description {
+.title-description, .description {
     font-family: "MedievalSharp", cursive;
     color: aliceblue;    
 }
 
-.titledescription {
+.title-description {
     font-weight: bold; 
 }
 
-.textdescription {
+.text-description {
     font-weight: normal; 
 }
