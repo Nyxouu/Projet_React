@@ -53,7 +53,7 @@ export default function Bestiaire() {
                 </div> : null}
                 <div id="creature-gallery">
                   {filteredCreatures.length === 0 ? (
-                      <p class="text-error" >Aucune créatures ne correspond.</p>
+                      <p class="text-error" >Aucune créature ne correspond.</p>
                     ) : (
                       filteredCreatures.map(creature => (
                         <div key={creature.id} onClick={() => toggleVisibility(creature)}>

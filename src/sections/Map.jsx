@@ -30,7 +30,7 @@ export default function Map() {
       <Filters setAlignment={setAlignment} setElement={setElement} setType={setType}/>
       <div id="creature-gallery">
         {filteredCreatures.length === 0 ? (
-              <p class="text-error" >Aucune créatures ne correspond.</p>
+              <p class="text-error" >Aucune créature ne correspond.</p>
             ) : (
               filteredCreatures.map(creature => (
           <PointCard creature={creature}/>

@@ -24,3 +24,11 @@ a {
     color: inherit; /* Hérite de la couleur du texte parent */
 }
 
+
+
+/* Responsive */
+@media (max-width: 768px) { /* Ajuste la largeur selon ton besoin */
+    #map-page {
+        display: none;
+    }
+}
