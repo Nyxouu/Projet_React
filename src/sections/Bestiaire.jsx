@@ -1,8 +1,8 @@
 import "./Bestiaire.css";
 import { useState, useMemo } from "react"
-import creaturesData from "../creaturesData.js";
-import CreatureCard from '../components/CreatureCard.jsx';
-import Filters from "../filters/Filters.jsx";
+import creaturesData from "../creaturesData.js"
+import CreatureCard from '../components/CreatureCard.jsx'
+import Filters from "../filters/Filters.jsx"
 
 export default function Bestiaire() {
 
@@ -53,7 +53,7 @@ export default function Bestiaire() {
                 </div> : null}
                 <div id="creature-gallery">
                   {filteredCreatures.length === 0 ? (
-                      <p>Pas de creature trouvée</p>
+                      <p class="text-error" >Aucune créatures ne correspond.</p>
                     ) : (
                       filteredCreatures.map(creature => (
                         <div key={creature.id} onClick={() => toggleVisibility(creature)}>
