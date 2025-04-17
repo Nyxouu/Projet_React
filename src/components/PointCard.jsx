@@ -5,8 +5,9 @@ import "./PointCard.css";
 export default function pointCard({creature}) {
     const pointStyle = {
         position : 'absolute', 
-        top : creature.x + '%',
+        top : '0',
         left: creature.y + '%',
+        transform: `translateY(calc(${creature.x}vw * 0.66))`, // ← important : x basé sur largeur de l'écran
     }
     const [isVisible, setIsVisible] = useState(false);
 

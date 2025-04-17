@@ -30,28 +30,28 @@
 
 
   /* responsive */
-  /* @media (max-width: 1650px) {
+  @media (max-width: 1650px) {
     .card-visible {
-      height: 71%;
+      height: 54%;
     }
   }
   @media (max-width: 1520px) {
     .card-visible {
-      height: 65%;
+      height: 50%;
     }
   }
   @media (max-width: 1400px) {
     .card-visible {
-      height: 59%;
+      height: 47%;
     }
   }
   @media (max-width: 1230px) {
     .card-visible {
-      height: 52%;
+      height: 42%;
     }
   }
   @media (max-width: 1100px) {
     .card-visible {
-      height: 48%;
+      height: 38%;
     }
-  } */
+  }
