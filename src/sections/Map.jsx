@@ -1,13 +1,32 @@
 import "./Map.css"
-import { useState, useMemo } from "react"
+import { useState, useMemo, useEffect } from "react"
 import creaturesData from "../creaturesData.js"
 import PointCard from "../components/PointCard.jsx"
 import Filters from "../filters/Filters.jsx"
 
 export default function Map() {
-  const [alignment, setAlignment] = useState('all-alignment');
-  const [element, setElement] = useState('all-element');
-  const [type, setType] = useState('all-type');
+  const getStoredFilter = (key, defaultValue) => {
+    const stored = localStorage.getItem(key);
+    return stored ? stored : defaultValue;
+  };
+
+  const [selectedCardCreature, setSelectedCardCreature] = useState(null);
+  const [alignment, setAlignment] = useState(() => getStoredFilter('alignment', 'all-alignment'));
+  const [element, setElement] = useState(() => getStoredFilter('element', 'all-element'));
+  const [type, setType] = useState(() => getStoredFilter('type', 'all-type'));
+
+  // Sauvegarder dans localStorage quand un filtre change
+  useEffect(() => {
+    localStorage.setItem('alignment', alignment);
+  }, [alignment]);
+
+  useEffect(() => {
+    localStorage.setItem('element', element);
+  }, [element]);
+
+  useEffect(() => {
+    localStorage.setItem('type', type);
+  }, [type]);
 
   // Fonction pour afficher une créature sélectionnée
   const toggleVisibility = (creature) => {
@@ -27,7 +46,14 @@ export default function Map() {
 
   return (
     <div class="content-padding">
-      <Filters setAlignment={setAlignment} setElement={setElement} setType={setType}/>
+      <Filters 
+        alignment={alignment} 
+        element={element} 
+        type={type} 
+        setAlignment={setAlignment} 
+        setElement={setElement} 
+        setType={setType} 
+      />
       <div id="creature-map-gallery">
         {filteredCreatures.length === 0 ? (
               <p class="text-error" >Aucune créature ne correspond.</p>

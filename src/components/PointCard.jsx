@@ -8,6 +8,7 @@ export default function pointCard({creature}) {
         top : '0',
         left: creature.y + '%',
         transform: `translateY(calc(${creature.x}vw * 0.66))`, // ← important : x basé sur largeur de l'écran
+        filter: 'drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.6))',
     }
     const [isVisible, setIsVisible] = useState(false);
 

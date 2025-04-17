@@ -1,14 +1,10 @@
 #filters-banner {
     display: flex;
     flex-wrap: wrap;
-    gap: 2;
     justify-content:space-around;
-    margin-bottom: 10%;
     margin : 0% 17% 3% 17%;
 }
 
-
- 
 select {
     -webkit-appearance: none; /* Supprime le style par défaut sur Webkit (Chrome, Safari) */
     -moz-appearance: none; /* Supprime le style par défaut sur Firefox */
