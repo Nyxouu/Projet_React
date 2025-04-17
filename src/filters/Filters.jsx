@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./Filters.css";
 
-export default function FilterBanner({setAlignment, setElement, setType}) {
+export default function FilterBanner({alignment, element, type, setAlignment, setElement, setType}) {
 
   return (
     <div id="filters-banner">
 
       <div id="alignment-filter">
-        <select onChange={(e) => setAlignment(e.target.value)}>
+        <select value={alignment} onChange={(e) => setAlignment(e.target.value)}>
           <option value="all-alignment">Alignements</option>
           <option value="Bon">Bon</option>
           <option value="Neutre">Neutre</option>
@@ -16,7 +16,7 @@ export default function FilterBanner({setAlignment, setElement, setType}) {
       </div>
 
       <div id="element-filter">
-        <select onChange={(e) => setElement(e.target.value)}>
+        <select value={element} onChange={(e) => setElement(e.target.value)}>
           <option value="all-element">Elements</option>
           <option value="eau">Eau</option>
           <option value="feu">Feu</option>
@@ -29,7 +29,7 @@ export default function FilterBanner({setAlignment, setElement, setType}) {
       </div>
 
       <div id="type-filter">
-        <select onChange={(e) => setType(e.target.value)}>
+        <select value={type} onChange={(e) => setType(e.target.value)}>
           <option value="all-type">Types</option>
           <option value="Neutre">Neutre</option>
           <option value="Guerrier">Guerrier</option>
