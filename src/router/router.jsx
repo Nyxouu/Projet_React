@@ -12,7 +12,7 @@ export default createBrowserRouter([
     element: <Layout />,
     children: [
         { path: "/", element: <Home /> },
-        { path: "histoire-et-legendes", element: <HistoiresLegendes /> },
+        // { path: "histoire-et-legendes", element: <HistoiresLegendes /> },
         {  path: "map", element: <ProtectedRoute element={<Map />} /> },
         { path: "bestiaire", element: <Bestiaire /> },
     ],
