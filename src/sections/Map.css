@@ -1,4 +1,37 @@
-#creature-gallery {
+#creature-map-gallery {
     display: block;
+    min-height: 800px;
+    background-image: url(../../public/map.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin : 0% 17% 0% 17%;
+  }
+
+  /* responsive */
+@media (max-width: 1650px) {
+  #creature-map-gallery{
+    min-height: 750px;
+  }
+}
+
+@media (max-width: 1520px) {
+  #creature-map-gallery{
     min-height: 700px;
   }
+}
+@media (max-width: 1400px) {
+  #creature-map-gallery{
+    min-height: 600px;
+  }
+}
+@media (max-width: 1230px) {
+  #creature-map-gallery{
+    min-height: 550px;
+  }
+}
+@media (max-width: 1100px) {
+  #creature-map-gallery{
+    min-height: 500px;
+  }
+}

@@ -1,7 +1,10 @@
 #filters-banner {
     display: flex;
+    flex-wrap: wrap;
+    gap: 2;
     justify-content:space-around;
     margin-bottom: 10%;
+    margin : 0% 17% 3% 17%;
 }
 
 
@@ -19,9 +22,11 @@ select {
     font-family: "MedievalSharp", cursive;
     color: rgb(212, 147, 89);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+    margin-top: 10px;
 }
 
 option {
     font-family: "MedievalSharp", cursive;
     color: aliceblue;
 }
+

@@ -26,9 +26,9 @@ export default function Map() {
   }, [alignment, element, type]);
 
   return (
-    <div class="content padding">
+    <div class="content-padding">
       <Filters setAlignment={setAlignment} setElement={setElement} setType={setType}/>
-      <div id="creature-gallery">
+      <div id="creature-map-gallery">
         {filteredCreatures.length === 0 ? (
               <p class="text-error" >Aucune créature ne correspond.</p>
             ) : (
